@@ -17,6 +17,7 @@ body{
   filter: blur(10px);
   -webkit-filter: blur(10px);
   transition: 1000ms;
+  /* padding-bottom: 3rem; */
 }
 
 .showcase:hover::after {
@@ -39,7 +40,7 @@ body{
   width: 300px;
   height: 350px;
   text-align: center;
-  /* transition: all 2000ms; */
+  transition: all 1000ms;
 }
 
 .logo {
@@ -86,8 +87,9 @@ body{
 
 
 .bg-dark {
-  background-color: #333333;
-  color: #f4f4f4 ;
+  background: #333;
+  /* opacity: 80; */
+  color: #ffffff;
   text-align: center;
 }
 
@@ -113,7 +115,7 @@ footer p {
 
 @media(max-width : 660px) {
   .showcase::after {
-    height: 50vh;
+    height: 65vh;
   }
 
   .content {
