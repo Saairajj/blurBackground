@@ -71,6 +71,7 @@ body{
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
+  /* padding: 0; */
 }
 
 .center {
@@ -87,6 +88,7 @@ body{
 .bg-dark {
   background-color: #333333;
   color: #f4f4f4 ;
+  text-align: center;
 }
 
 .grid-2 {
@@ -94,13 +96,15 @@ body{
   margin-top: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 100px;
   padding-left: -80px;
   /* text-align: center; */
+  font-size: 20px;
 }
 
 footer {
   padding: 2rem;
+  font-size: 20px;
 }
 
 footer p {
@@ -134,8 +138,19 @@ footer p {
     padding: 1.2rem 1rem;
   }
 
-}
+  .grid-2 {
+    height: 150px;
+    /* margin-top: 60px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-gap: 100px; */
+    padding-left: -40px;
+    text-align: center;
+    font-size: 10px;
+    overflow: auto;
+  }
 
+}
 
 @media(max-height:500px) {
   
