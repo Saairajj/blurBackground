@@ -1,0 +1,23 @@
+{
+  "name": "blurBackground",
+  "version": "1.0.0",
+  "description": "This is first Project",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh -pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saairajj/blurBackground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saairajj/blurBackground/issues"
+  },
+  "homepage": "https://github.com/Saairajj/blurBackground#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
